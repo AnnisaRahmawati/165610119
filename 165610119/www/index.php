@@ -22,7 +22,7 @@
 		
 		<?php
 		//iclude file koneksi ke database
-		include('koneksi.php');
+		include('/dump/koneksi.php');
 		
 		//query ke database dg SELECT table siswa diurutkan berdasarkan NIS paling besar
 		$query = mysql_query("SELECT * FROM siswa ORDER BY siswa_nis DESC") or die(mysql_error());
